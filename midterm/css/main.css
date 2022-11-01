@@ -1,0 +1,109 @@
+/* background-color fo*/
+body {
+    background-color: rgb(164, 217, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* edit color for main nav*/
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+/* edit color for main nav*/
+a:hover, a:active {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* navigation section */
+nav ul li {
+    display: inline-block;
+    padding-right: 7.3rem;
+    padding-left: 7.3rem;
+    padding-top: 0.5rem;
+    border-right: 1px solid black;
+}
+
+/* remove border from thrid list */
+nav ul li.noborder {
+    border-right: none !important;
+}
+
+/* mainbox properties */
+  .mainbox {
+    width: 100%;
+    min-height: 350px;
+    background-color: rgb(201, 241, 241);
+    position: relative;
+    margin-top: -4px;
+}
+
+/* lone starfish text for header */
+  .text {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+/* centers page */
+  .container {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+/* removed space between header photo and mainbox*/
+  .mainbox ul {
+    margin: 0;
+  }
+  
+/* main text properties */
+  .textfig {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    line-height: 17pt;
+  }
+
+  .starfish-img {
+    width: 250px;
+    float: left;
+    margin-right: 1.3rem;
+    margin-bottom: 1.1rem;
+  }
+
+  h1, h2, h3 {
+    font-weight: lighter;
+  }
+
+  .form-sub {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+  }
+
+
+  input, textarea {
+    width: 100%;
+  }
+
+  #sendbtn {
+    padding: 10px;
+    background-color: transparent;
+  }
+
+#footer {
+position: relative;
+left: 840px;
+padding: 2rem;
+}
+
