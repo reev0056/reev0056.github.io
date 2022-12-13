@@ -4,87 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset -->
+    <link rel="stylesheet" href="css/reset.css" media="screen">
+    <!-- Play Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
     <title>Final Project</title>
 </head>
 <body>
     <!-- Navigation -->
-    <div>
-        <img src="images/logo.png" alt="logo">
-        <div class="topnav">
+    <header>
+        <img class="logo-img" src="images/logo.png" alt="logo">
+        <div class="navigation-container">
             <a class="active" href="#home">Home</a>
             <a href="#about">About Us</a>
             <a href="#contact">Services</a>
             <a href="#contact">Team</a>
             <a href="#contact">Contact</a>
-            <input type="text" placeholder="Search">
-          </div>
-    </div>
-
-    <!-- Main -->
-    <div>
-        <h1>Welcome to Three Star Media</h1>
-        <img src="images/main-banner.jpg" alt="main-banner">
+            <input type="text" placeholder="Search" name="search">
+  <button class="searchbar" type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </header>
+    <!-- Welcome -->
+    <div class="main-container">
+        <img class="main-ban-img" src="images/main-banner.jpg" alt="main-banner">
+        <div class="image-text">
+            <h1>Welcome to Three Star Media</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iusto. Hic, aperiam placeat? Laudantium non exercitationem eos ipsam neque, magnam distinctio, possimus earum perspiciatis dolorum ut dolore facilis perferendis vero.</p>
-        <button>Connect with us</button>
+        <button class="btn-1">Connect with us <i class="fa fa-play"></i></button>
+        </div>
+        
     </div>
 
     <!-- About Us -->
-    <div>
-        <div class="card">
+    <div class="flexbox-container">
+        <div class="about-card">
             <img src="images/about-us.jpg" alt="about-us">
             <div class="container">
-                <h1>About Us </h1>
+                <h2>About Us </h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae blanditiis nemo fugit consequatur accusantium explicabo. Culpa ipsam totam, numquam sit aperiam quia laboriosam, doloremque, voluptatum fugit iure pariatur incidunt asperiores.</p>
             </div>
         </div>
-    </div>
 
     <!-- Our Services-->
     <div>
-        <h1>Our Services</h1>
-    <div>
-        <img src="images/digital.jpg" alt="digital">
-        <h2>Digital Transformation</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
-        <button>Digital Plans</button>
+        <h2>Our Services</h2>
+        <div class="digital-card">
+            <img class="digital-img" src="images/digital.jpg" alt="digital">
+            <div class="container">
+                <h3>Digital Transformation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
+                <button class="btn-2">Digital Plans <i class="fa fa-play"></i></button>
+            </div>
+        </div>
+
+    <div class="marketing-card">
+        <img class="marketing-img" src="images/marketing.jpg" alt="marketing">
+        <div class="container">
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
+            <button class="btn-3">Marketing Plans <i class="fa fa-play"></i></button>
+        </div>
     </div>
-    <div>
-        <img src="images/marketing.jpg" alt="marketing">
-        <h2>Marketing</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
-        <button>Marketing Plans</button>
+
+  <div class="video-card">
+        <img class="video-img" src="images/video.jpg" alt="video">
+        <div class="container">
+            <h3>Video Production</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
+            <button class="btn-2">Video Plans <i class="fa fa-play"></i></button>
+        </div>
     </div>
-    <div>
-        <img src="images/video.jpg" alt="video">
-        <h2>Video Production</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
-        <button>Video Plans</button>
+
+    <div class="web-card">
+        <img class="web-img" src="images/web.jpg" alt="web">
+        <div class="container">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
+            <button class="btn-2">Web Plans <i class="fa fa-play"></i></button>
+        </div>
     </div>
-    <div>
-        <img src="images/web.jpg" alt="web">
-        <h2>Web Development</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
-        <button>Web Plans</button>
-    </div>
-    <div>
-        <img src="images/print.jpg" alt="print">
-        <h2>Print</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
-        <button>Print Plans</button>
+
+    <div class="print-card">
+        <img class="print-img" src="images/print.jpg" alt="print">
+        <div class="container">
+            <h3>Print</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet delectus expedita vitae quas, facere adipisci, ullam officia dolor veniam ut! Iusto vero facilis non ad ullam, eveniet sequi voluptatum?</p>
+            <button class="btn-2">Print Plans <i class="fa fa-play"></i></button>
+        </div>
     </div>
     </div>
+</div>
         <!-- Our Vision -->
-    <div>
+    <div class="images-card">
         <img src="images/vision.jpg" alt="vision">
         <h2>Our Vision</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur beatae distinctio sunt. Inventore, fugit accusantium esse reprehenderit modi quod veritatis qui optio ratione incidunt voluptate dolorum placeat sapiente non maxime.</p>
-        <button>Learn More</button>
+        <button class="btn-4">Learn More <i class="fa fa-play"></i></button>
     </div>
 
     <!-- The Team -->
     <div>
         <h1>Our Team</h1>
-        <div class="card">
+        <div class="john-card">
             <img src="images/john.jpg" alt="John">
             <div class="container">
                 <h2>John Doe</h2>
@@ -93,7 +119,7 @@
             </div>
         </div>
     
-    <div class="card">
+    <div class="bob-card">
         <img src="images/bob.jpg" alt="Bob">
         <div class="container">
             <h2>Bob Rite</h2>
